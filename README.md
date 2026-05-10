@@ -17,6 +17,7 @@ royaltyInfo(uint, address) - override of IERC2981.sol
 * returns mappedRoyalties.receiver
 * returns value to be sent from sale
 
+
 #### ERC2981Collection.sol (for public minters)
 Designed more for x amount of minters for an artist collection.<br>
 By using 2 variables, royaltyAddress and royaltyPercent more gas intensive, but should be a one time setting.
